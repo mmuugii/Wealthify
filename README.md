@@ -1,4 +1,4 @@
-<!-- # Wealthify
+<!-- # Wealthify (test)
 
 ## Subtitle - Very short one liner about what it does
 Intro Paragraph - Get SEO value! Embed searchable words
@@ -12,5 +12,5 @@ Intro Paragraph - Get SEO value! Embed searchable words
 
     Expectations towards Contributors
 
-    Known Issues (if any) -->
+    Known Issues (if any) --> 
 
