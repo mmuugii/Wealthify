@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS project_2;
-CREATE DATABASE project_2;
+DROP DATABASE IF EXISTS wealthify_db;
+CREATE DATABASE wealthify_db;
