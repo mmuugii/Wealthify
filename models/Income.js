@@ -11,5 +11,14 @@ Income.init(
             primaryKey: true,
             autoIncrement: true,
         }
+    },
+    {
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'income'
     }
-)
+);
+
+module.exports = Income;

@@ -4,30 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 2 Template!</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <title>Wealthify!</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js"></script>
 </head>
 
 <body>
   <div class="">
-    <header class="">
+    <header class="display-flex justify-space-between align-center p-2">
       <h1>
         <span role="img" aria-label="money">💸</span>
-        <a href="/">Project 2 Template</a>
+        <a href="/">Wealthify</a>
       </h1>
       <nav>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile">profile</a> |
+        <a href="/profile">Profile</a> |
         <button class="" id="logout">logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login">Login</a>
         {{/if}}
       </nav>
     </header>
     <main class="">
-      <!-- Render the sub layout -->
-      {{{ body }}}
+      <!-- Conditionally render login or logout links -->
+      {{#if logged_in}}
+      <a href="/profile">Profile</a> |
+      <button class="" id="logout">logout</button>
+      {{else}}
+      <a href="/login">Login</a>
+      {{/if}}
+      {{!-- {{{ body }}} --}}
     </main>
     <footer>
       
