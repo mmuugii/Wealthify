@@ -18,9 +18,4 @@ const helpers = require('./utils/helpers');
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const PORT = process.env.PORT || 3000;
-
-app.use(express.static('public'));
-
-app.listen(PORT, () => {
-    console.log(`Now listening at ${PORT}, Let's Go!`)
 });
