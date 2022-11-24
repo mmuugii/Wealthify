@@ -10,4 +10,3 @@ Array.from(document.getElementsByClassName("menu-item"))
 // const User = require('./User');
 
 // module.exports = { User };
-
