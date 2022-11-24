@@ -1,3 +1,12 @@
-const User = require('./User');
+const menu = document.getElementById("menu");
 
-module.exports = { User };
+Array.from(document.getElementsByClassName("menu-item"))
+ .forEach((item, index) => {
+    item.onmouseover = () => {
+        menu.dataset.activeIndex = index;
+    }
+ });
+
+// const User = require('./User');
+
+// module.exports = { User };
