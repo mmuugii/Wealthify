@@ -16,26 +16,22 @@
         <span role="img" aria-label="money">💸</span>
         <a href="/">Wealthify</a>
       </h1>
-      <nav>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">Profile</a> |
-        <button class="" id="logout">logout</button>
-        {{else}}
-        <a href="/login">Login</a>
-        {{/if}}
-      </nav>
     </header>
-    <main class="">
+    <main class="menu-items" id="menu-items">
       <!-- Conditionally render login or logout links -->
       {{#if logged_in}}
       <a href="/profile">Profile</a> |
       <button class="" id="logout">logout</button>
       {{else}}
       <a href="/login">Login</a>
-      {{/if}}
+      {{/if}} <br>
+      <a href="/signup">Sign-Up</a>
+      <a href="/" class="menu-item">About</a>
+      <a href="/" class="menu-item">Contact Us</a>
       {{!-- {{{ body }}} --}}
     </main>
+    <div id="menu-background-pattern"></div>
+    <div id="menu-background-image"></div>
     <footer>
       
     </footer>
