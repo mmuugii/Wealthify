@@ -11,8 +11,8 @@ Income.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
-            type: DataTypes.STRING,
+        amount: {
+            type: DataTypes.INTEGER,
             allowNull: false,
         },
         description: {
