@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "id": 1,
+        "amount": 500000,
+        "description": "January income",
+        "user_id": "1"
+      },
+      {
+        "id": 2,
+        "amount": 40000,
+        "description": "January income",
+        "user_id": "2"
+      },
+      {
+        "id": 3,
+        "amount": 6000,
+        "description": "January income",
+        "user_id": "4"
+      }
+]

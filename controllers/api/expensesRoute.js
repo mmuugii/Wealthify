@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, Income, Expenses } = require('../../models');
+const { User, Expenses } = require('../../models');
 
 // creates expense data
 router.post('/', async (req, res) => {
