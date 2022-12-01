@@ -91,11 +91,23 @@ body {
     opacity: 0.15;
 
     transition: opacity 800ms ease,
-     background-size 800ms ease,
-     background-position 800ms ease;
+    background-size 800ms ease,
+    background-position 800ms ease;
 }
 
 #menu-items:hover ~ #menu-background-image {
     background-size: 100vmax;
     opacity: 0.10;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Ibarra Real Nova", serif;
 }
