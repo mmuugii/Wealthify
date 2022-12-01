@@ -3,6 +3,18 @@ body {
     margin: 0px;
 }
 
+div {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
 #menu {
     height: 100vh;
     display: flex;
