@@ -8,9 +8,9 @@ Array.from(document.getElementsByClassName('menu-item')).forEach(
   }
 );
 
-const inputText = document.querySelector("#input");
-const button = document.querySelector('button');
+// const inputText = document.querySelector("#input");
+// const button = document.querySelector('button');
 
-const grossMonthlyIncome = () => {
-   button.innerHTML = inputText.value;
+// const grossMonthlyIncome = () => {
+//    button.innerHTML = inputText.value;
 
