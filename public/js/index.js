@@ -13,3 +13,4 @@ const button = document.querySelector('button');
 
 const grossMonthlyIncome = () => {
    button.innerHTML = inputText.value;
+

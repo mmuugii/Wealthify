@@ -2,20 +2,21 @@
 // Created on November 17, 2022
 // base server file
 
-const express = require('express');
-const app = express();
 const path = require('path');
+const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
+
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
+
+const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Set up Handlebars.js engine with custom helpers
 const hbs = exphbs.create({ helpers });
-
 
 const sess = {
   secret: 'Super secret secret',
@@ -28,8 +29,8 @@ const sess = {
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
-    db: sequelize,
-  }),
+    db: sequelize
+  })
 };
 
 app.use(session(sess));
@@ -44,12 +45,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes);
 
-// app.listen(PORT, () => {
-//   console.log(`Now listening at ${PORT}, Let's Go!`);
-// });
-
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () =>
-    console.log(`Now listening on Port ${PORT}, Let's Go!`)
-  );
+  app.listen(PORT, () => console.log(`Now listening on ${PORT}, Let's Ride!`));
 });
+
