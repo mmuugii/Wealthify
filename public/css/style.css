@@ -36,7 +36,7 @@ h3 {
     color: white;
     font-size: 20px;
     display: inline-block;
-    width: 150px;
+    width: 120px;
     text-align: right;
 }
 
@@ -44,14 +44,15 @@ h3 {
     color: white;
     font-size: 15px;
     display: inline-block;
-    width: 50px;
+    width: 60px;
     text-align: right;
 }
 
 .button {
-    display: inline-block;
-    width: 50px;
-    text-align: right;
+   left: 65px;
+   display: inline-block;
+   position: relative;
+
 }
 
 #menu-background-pattern {
