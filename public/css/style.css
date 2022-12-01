@@ -3,6 +3,18 @@ body {
     margin: 0px;
 }
 
+div {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
 #menu {
     height: 100vh;
     display: flex;
@@ -113,11 +125,40 @@ body {
     opacity: 0.15;
 
     transition: opacity 800ms ease,
-     background-size 800ms ease,
-     background-position 800ms ease;
+    background-size 800ms ease,
+    background-position 800ms ease;
 }
 
 #menu-items:hover ~ #menu-background-image {
     background-size: 100vmax;
     opacity: 0.10;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Ibarra Real Nova", serif;
+}
+
+.logout-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.profile-tab {
+    color: white;
+    font-size: 15px;
+    font-family: "Ibarra Real Nova", serif;
 }
