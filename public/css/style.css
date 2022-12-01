@@ -3,6 +3,15 @@ body {
     margin: 0px;
 }
 
+.red
+{
+    background: red;
+}
+.green
+{
+    background: green;
+}
+
 div {
     color: white;
 }
