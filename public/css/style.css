@@ -22,7 +22,24 @@ body {
 
 .login {
     color: white;
+    font-size: 20px;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.labelText {
+    color: white;
     font-size: 15px;
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+
+.button {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
 }
 
 #menu-background-pattern {
