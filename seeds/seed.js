@@ -13,7 +13,7 @@ const seedDatabase = async () => {
   });
 
   for (const income of incomeData) {
-    await income.create({
+    await Income.create({
       ...income,
       user_id: users[Math.floor(Math.random() * users.length)].id,
     });

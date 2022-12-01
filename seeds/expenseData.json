@@ -1,1 +1,23 @@
-[]
+[
+    {
+        "id": 1,
+        "housing": 5700,
+        "food": 5000,
+        "utilities": 4000,
+        "user_id": "1"
+      },
+      {
+        "id": 2,
+        "housing": 5700,
+        "food": 5000,
+        "utilities": 4000,
+        "user_id": "2"
+      },
+      {
+        "id": 3,
+        "housing": 700,
+        "food": 500,
+        "utilities": 200,
+        "user_id": "3"
+      }
+]
