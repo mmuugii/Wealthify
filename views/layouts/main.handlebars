@@ -13,8 +13,8 @@
   <div class="">
     <header class="display-flex justify-space-between align-center p-2">
       <h1>
-        <span role="img" aria-label="money">💸</span>
-        <a href="/">Wealthify</a>
+        {{!-- <span role="img" aria-label="money">💸</span> --}}
+        Wealthify
       </h1>
     </header>
     <main class="menu-items" id="menu-items">
@@ -23,16 +23,17 @@
       <a href="/profile">Profile</a> |
       <button class="" id="logout">logout</button>
       {{else}}
-      <a href="/login">Login</a>
+      <a class="menu-item" href="/login">Login</a>
       {{/if}} <br>
-      <a href="/" class="menu-item">About</a>
-      <a href="/" class="menu-item">Contact Us</a>
       {{{ body }}}
     </main>
     <div id="menu-background-pattern"></div>
     <div id="menu-background-image"></div>
     <footer>
-      
+      <nav class="footer">
+        <p>About</p>
+        <p>Contact Us</p>
+      </nav>
     </footer>
   </div>
 
