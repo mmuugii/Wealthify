@@ -20,8 +20,8 @@
     <main class="menu-items" id="menu-items">
       <!-- Conditionally render login or logout links -->
       {{#if logged_in}}
-      <a href="/profile">Profile</a> |
-      <button class="" id="logout">logout</button>
+      <a class="profile-tab" href="/profile">Profile</a> |
+      <button class="logout-button" id="logout">logout</button>
       {{else}}
       <a class="menu-item" href="/login">Login</a>
       {{/if}} <br>
