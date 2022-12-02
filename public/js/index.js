@@ -30,7 +30,6 @@ new Chart("myChart", {
 const menu = document.getElementById('menu');
 const button = document.getElementById('btn1');
 
-=====================
 
 function getInputValue() {
   var inputVal = document.getElementById("myInput").value;
@@ -48,7 +47,7 @@ var investments = (getInputValue/20) * 100;
 // const data = [liabilities, expenses, investments];
 
 
-=====================
+
 
 
 
