@@ -1,8 +1,7 @@
 <div class="">
   <div class="">
     <h2>Welcome, {{name}}!</h2>
-      <body>
-        <form id="intro">
+        <div id="intro">
           <h3>Lets get started.
             Wealthify aims to gather some information about
             your income to help generate a budget that can
@@ -15,13 +14,15 @@
             on a month to month basis after tax. Once we have 
             figured out what your Gross Monthly Income is, enter it HERE
           </h3>
+        </div>
+        <form class="income-form">
+          <input type="text" id="incomeInput"/>
+          <button type="submit" id="btn1">Submit</button>
         </form>
-      </body>
-      <input type="text" id="myInput" onkeyup="validateinput()"/>
-      <button type="button" id="btn1" onclick="getInputValue();">Submit</button>
-    </form>
+
     <img src="../assets/chartexample.png" alt="example of a chart" width="500" height="500">
   </div>
 </div>
 
-<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<script src="./js/income.js"></script>
+{{!-- <canvas id="myChart" style="width:100%;max-width:600px"></canvas> --}}
